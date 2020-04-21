@@ -2,5 +2,20 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "cz-customizable": "^6.2.0",
+    "lerna": "^3.20.2"
+  },
+  "name": "yarn-workspace",
+  "scripts": {
+    "test": "lerna run test --scope={@wallnut/common,@wallnut/server}",
+    "new-version": "lerna version --conventional-commits --yes ",
+    "diff": "lerna diff"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

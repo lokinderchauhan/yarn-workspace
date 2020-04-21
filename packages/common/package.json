@@ -2,5 +2,8 @@
   "name": "@wallnut/common",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing client with name: $npm_package_name"
+  }
 }
