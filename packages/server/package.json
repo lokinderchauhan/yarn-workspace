@@ -1,10 +1,10 @@
 {
   "name": "@wallnut/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@wallnut/common": "1.0.0"
+    "@wallnut/common": "^1.0.1"
   },
   "scripts": {
     "test": "echo testing server with version: $npm_package_version"
